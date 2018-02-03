@@ -1,0 +1,108 @@
+.navbar {
+	width: 100%;
+	position: fixed;
+	opacity: 0.8;
+	z-index: 1;
+	margin: 0;
+	padding: 0;
+	font-weight: 500;
+}
+
+
+.nav-item:hover{
+	background-color: rgb(204, 204, 204);
+}
+
+
+.jumbotron{
+	min-height: 100vh;
+	background: url(img/banner.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.jumbotron-text{
+	position: absolute;
+	top:15vh;
+	left:3vw;
+}
+
+.jumbotron h1{
+	color: rgb(0, 0, 0);
+	text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.1),
+		1px 5px 8px rgba(0, 0, 0, 0.1),
+		1px 8px 13px rgba(0, 0, 0, 0.1);
+	font-weight: 900;
+}
+
+.jumbotron p{
+	font-weight: 600;
+	color: rgb(0, 0, 0);
+}
+
+.btn-primary{
+	background-color: rgba(128, 128, 128, 0.59);
+	color: black;
+	border:0;
+	box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2),
+		1px 5px 8px rgba(0, 0, 0, 0.2),
+		1px 8px 13px rgba(0, 0, 0, 0.1);
+	font-weight: 600;
+	margin-top:5vh;
+}
+
+.btn-primary:hover{
+	background-color: rgba(33, 25, 21, 0.87);
+}
+
+.menu,
+.carousel,
+.cook {
+	margin-top: 20vh;
+}
+
+.menu-card{
+	box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2),
+		1px 5px 8px rgba(0, 0, 0, 0.2),
+		1px 8px 13px rgba(0, 0, 0, 0.1);
+	color: black;
+	text-align: center;
+}
+
+.carousel-caption{
+	background-color: rgba(255, 255, 255, 0.67);
+	color: black;
+	margin:0;
+	padding:2vh;
+	bottom: 7vh;
+}
+
+.cook-card{
+	border: 0;
+	color: black;
+	text-align: justify;
+}
+
+.cook-card h5{
+	text-align: center;
+	font-weight: 900;
+}
+
+.name{
+	text-align: right;
+	font-style: italic;
+}
+
+.cook-img {
+	border-radius: 50%;
+}
+
+@media (min-width: 480px){
+	.jumbotron-text{
+		position: absolute;
+		top:30vh;
+		left:5vw;
+	}
+}
